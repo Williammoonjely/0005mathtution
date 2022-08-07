@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgb(175, 231, 248) 0%, rgb(190, 136, 252) 50%, rgb(252, 150, 206) 90%);
+}
+h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align:left;
+    color:rgb(130, 76, 239);
+}
+h2{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align:left;
+    color:#ffffff;
+    ;
+
+}
+h3{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align:left;
+    color:#ffffff;
+    ;
+
+}
+h4{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align:center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    color:white;
+   
+}
+.logos{
+    padding-top: 30px;
+    height: 64px;
+}
+.padder{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flexy{
+    display: flex;
+}
+
+.imgsizer{
+    height: 550px;
+}
+.imagesize{
+    height: 250px;
+}
+.photosize{
+    width: 130px;
+}
+.introbox{
+    width: 431px;
+    height: 523px;
+    padding-top: 5%;
+    border-style: hidden;
+    border-radius: 20px
+    
+}
+.introbox div h1{ 
+    
+    
+}
+.smallbox{
+    width: 90px;
+    padding: 4px 20px;
+    box-shadow: 2px 2px 2px rgb(128, 128, 128);
+    border-radius: 20px;
+    margin: 0px 3px;
+    background-color:white ;
+    background: rgba(255, 255, 255,1.0);
+}
+.smallbox:hover{
+    background: #9C89B8;
+}
+.bigbox{
+    padding: 20px 20px;
+    box-shadow: 2px 2px 2px rgb(128, 128, 128);
+    border-radius: 20px;
+    margin: 30px 10px;
+    background: rgba(255, 255, 255,0.4);
+   
+
+}
+.middy {
+    
+    justify-content: center;
+}
+.lefty{
+    justify-content: baseline;
+}
+.paddy{
+    padding-top: 15px;
+}
+.star{
+    position:absolute;
+    right: 40px;
+}
+#ikonblack{
+    color: black;
+}
+#smallblank{
+    margin-right:20px;
+    padding: 4px 15px;
+    border: 1px solid whitesmoke;  
+    border-radius: 20px;
+    background: linear-gradient(90deg,white 0%,transparent 60%);
+}
+#smallorange{
+    padding: 4px 40px;
+    background-color:orangered;
+    border-radius: 20px;
+}
+#textlefty{
+    text-align: left;
+}
+#why{
+    padding: 40px;
+    font-size: 42px;
+}
+#photo{
+    padding: 40px 60px 40px 40px;
+    box-shadow: 0px 2px 2px rgb(128, 128, 128);
+    border-radius: 20px 0px 0px 20px;
+    margin: 150px 0px;
+    background: rgba(255, 255, 255,0.4);
+}
+#contact{
+    padding: 60px 250px 60px 40px;
+    box-shadow: 2px 2px 2px rgb(128, 128, 128);
+    border-radius: 0px 20px 20px 0px;
+    margin: 150px 0px;
+    background: rgba(130, 76, 239,0.4);
+}
