@@ -52,6 +52,7 @@ i{
 .logos{
     padding-top: 30px;
     height: 64px;
+    padding-right: 800px;
 }
 .padder{
     padding-left: 30px;
@@ -79,7 +80,7 @@ i{
     
 }
 .introbox div h1{ 
-    
+    margin-top: 80px;
     
 }
 .smallbox{
@@ -113,10 +114,6 @@ i{
 .paddy{
     padding-top: 15px;
 }
-.star{
-    position:absolute;
-    right: 40px;
-}
 #ikonblack{
     color: black;
 }
@@ -144,12 +141,48 @@ i{
     box-shadow: 0px 2px 2px rgb(128, 128, 128);
     border-radius: 20px 0px 0px 20px;
     margin: 150px 0px;
-    background: rgba(255, 255, 255,0.4);
+    background: rgba(255, 255, 255,0.7);   
 }
 #contact{
     padding: 60px 250px 60px 40px;
     box-shadow: 2px 2px 2px rgb(128, 128, 128);
     border-radius: 0px 20px 20px 0px;
     margin: 150px 0px;
-    background: rgba(130, 76, 239,0.4);
+    background: rgba(130, 76, 239,0.7);   
+}
+#star{
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    z-index: -1;
+
+}
+#blurred2{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    z-index: -1;
+}
+
+#blurred4{
+    width: 250px;
+    position: relative;
+    top: 300px;
+    left: 200px;
+    z-index: -1;
+}
+#spherebottom{
+    position: relative;
+    top: 310px;
+    left: 70px;
+    z-index: -1;
+}
+#spheretop{
+    position: relative;
+    top: 40px;
+    right: 80px;
+    z-index: -1;
+}
+#transparent{
+    color: transparent;
 }
